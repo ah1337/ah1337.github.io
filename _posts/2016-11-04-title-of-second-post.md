@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Post about Latin literature
+title: Post about Latin Literature
 postHero: /images/shark.jpg
 author: Andrej Holubek
 authorTwitter: https://twitter.com/mhartl
