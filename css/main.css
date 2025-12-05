@@ -531,10 +531,19 @@ h2 ~ p {
   /* BLOG STYLES */
   .post-aside {
     /*display: none;*/
-    display: inline-block;
+    float: none;
   }
   .blog-previews {
     padding: 0;
+    margin: 0;
+    order: 1;
+  }
+  .blog-cols {
+    flex-direction: column;
+  }
+  .blog-recent {
+    padding: 0;
+    margin: 0;
   }
   /* GALLERY STYLES */
   .gallery {
