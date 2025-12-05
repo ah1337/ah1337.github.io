@@ -533,17 +533,20 @@ h2 ~ p {
     /*display: none;*/
     float: none;
   }
-  .blog-previews {
-    padding: 0;
-    margin: 0;
-    order: 1;
-  }
   .blog-cols {
     flex-direction: column;
   }
-  .blog-recent {
-    padding: 0;
-    margin: 0;
+  .blog-cols {
+    gap: 0;
+  }
+  .blog-cols .col.blog-recent {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .blog-cols .col.blog-previews {
+    padding: 0 !important;
+    margin: 0 !important;
+    order: 1;
   }
   /* GALLERY STYLES */
   .gallery {
