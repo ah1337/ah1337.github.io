@@ -10,13 +10,15 @@ layout: default
       <h1>{{ page.title }}</h1>
       <div class="post-byline">
         <img src="{{ page.gravatar }}">
-        <a href="{{ page.authorTwitter }}" class="social-link">Tw</a>
+        <a href="{{ page.authorTwitter }}" class="social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
         by: {{ page.author }}
         <span> - {{ page.date | date: '%B %d, %Y' }}</span>
       </div>
     </header>
     <aside class="post-aside">
-      <h4>Recent Posts AAA</h4>
+      <h4>Recent Posts</h4>
       <ul class="blog-title-list">
         {% for post in site.posts limit:5 %}
           <li>
